@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureNova - Seguridad Informática</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <span>SecureNova</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Servicios</a>
+        <a href="#about">Acerca</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <button class="btn btn-ghost">Iniciar prueba</button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Plataforma SaaS de ciberseguridad</span>
+        <h1>Protege tu empresa con inteligencia y velocidad</h1>
+        <p>Monitorea amenazas, asegura tus aplicaciones y responde con confianza en un panel único diseñado para equipos modernos.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary">Comenzar gratis</button>
+          <button class="btn btn-secondary">Ver demo</button>
+        </div>
+      </div>
+      <div class="hero-panel" id="heroPanel">
+        <div class="panel-glow"></div>
+        <div class="panel-card">
+          <h2>Estado de seguridad</h2>
+          <div class="status-line">
+            <span>Detecciones activas</span>
+            <strong>23</strong>
+          </div>
+          <div class="status-line">
+            <span>Alertas críticas</span>
+            <strong>5</strong>
+          </div>
+          <div class="status-line">
+            <span>Protección en tiempo real</span>
+            <strong>100%</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-header">
+        <span>Qué ofrecemos</span>
+        <h2>Soluciones que aceleran la defensa digital</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Monitoreo 24/7</h3>
+          <p>Visualiza amenazas en tiempo real y recibe alertas con prioridad según el riesgo.</p>
+        </article>
+        <article class="feature-card">
+          <h3> análisis de vulnerabilidades</h3>
+          <p>Detecta puntos débiles en aplicaciones, redes y servicios antes de que los exploten.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Respuesta automatizada</h3>
+          <p>Activa acciones y reportes automáticos para mantener tu infraestructura segura.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-panel" id="contact">
+      <div class="section-header">
+        <span>Contacto rápido</span>
+        <h2>Solicita una auditoría de seguridad en segundos</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Escribe tus datos</h3>
+          <p>Te responderemos con una propuesta de protección adaptada a tu empresa.</p>
+          <ul>
+            <li>Soporte 24/7</li>
+            <li>Análisis de riesgo instantáneo</li>
+            <li>Respuesta automatizada</li>
+          </ul>
+        </div>
+        <form class="form-card" id="contactForm" novalidate>
+          <label>
+            Correo electrónico
+            <input type="email" name="email" id="email" placeholder="ejemplo@empresa.com" required />
+            <span class="field-error" id="emailError"></span>
+          </label>
+          <label>
+            Mensaje
+            <textarea name="message" id="message" rows="5" placeholder="Cuéntanos sobre tus necesidades de seguridad" required></textarea>
+            <span class="field-error" id="messageError"></span>
+          </label>
+          <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+          <p class="form-feedback" id="formFeedback"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>¿Listo para elevar tu seguridad informática? Ponte en contacto y comienza hoy.</p>
+      <button class="btn btn-primary">Solicitar demo</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
